@@ -5,7 +5,7 @@
     <ProjectGuid>9ed88aa2-ff8d-4b25-ab21-6cb3519a1f22</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>Week_9.py</StartupFile>
+    <StartupFile>do.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="do.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="week4.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Week_9.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
