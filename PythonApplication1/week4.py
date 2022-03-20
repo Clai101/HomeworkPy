@@ -123,7 +123,7 @@ def eratosthenes(n):
 
 
 def MinDivisor(a, b):
-    for i in eratosthenes(int(a ** 0.5) + 1):
+    for i in eratosthenes(int(min(a, b))//2 + 1):
         while a % i == 0 and b % i == 0:
             a = a // i
             b = b // i
